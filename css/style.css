@@ -1,0 +1,16 @@
+.header {
+    background-image: url("../img/gora-matterhorn-shveycariya.jpg");
+    background-size: cover;
+}
+
+.header-contacts {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: #181818;
+    color: #929292;
+    height: 33px;
+}
+
+.telephone {
+    text-align: center;
+}
