@@ -3,6 +3,20 @@
     background-size: cover;
 }
 
+a.logo {
+    display: block;
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    background: url("../img/logo-Switzerland-excursions.png");
+    height: 103px;
+    width: 105px;
+    top: 0;
+    left: 20px;
+}
+
 .header-contacts {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -13,4 +27,66 @@
 
 .telephone {
     text-align: center;
+}
+
+.switzerland {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    padding-top: 210px;
+}
+
+.switzerland h1 {
+    font-size: 79px;
+    font-weight: 700;
+}
+
+.switzerland p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.switzerland a {
+    display: block;
+    text-decoration: none;
+}
+
+.switzerland .arrow-left {
+    background: url("../img/arrow-left-inactive.png");
+    height: 29px;
+    width: 13px;
+}
+
+.switzerland .arrow-right {
+    background: url("../img/arrow-right-inactive.png");
+    height: 29px;
+    width: 13px;
+}
+
+form.order-excursion {
+    background: url("../img/order-excursion-bg.png") no-repeat;
+    height: 580px;
+    width: 463px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+}
+
+form.order-excursion h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 22px;
+}
+
+.form-element {
+    display: block;
+    width: 340px;
+    height: 42px;
+}
+
+textarea.form-element {
+    height: 170px;
+    resize: none;
 }

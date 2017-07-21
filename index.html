@@ -7,12 +7,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
           integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="header">
         <div class="container">
+            <a class="logo" href="index.html"></a>
             <div class="row align-items-center justify-content-start header-contacts">
                 <div class="offset-sm-6 col-sm-3 telephone">
                     <span><img src="img/telephone-icon.png" alt="Телефон">&nbsp;&nbsp;</span>
@@ -21,6 +22,39 @@
                 <div class="col-sm-3">
                     <span><img src="img/email-icon.png" alt="E-mail">&nbsp;&nbsp;</span>
                     <span>switzeland-excursions@yandex.ru</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-sm-1 col-sm-3">
+                    <span>Оксана Кренинг<br></span><span>частный гид-переводчик</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 switzerland">
+                    <h1>Швейцария</h1>
+                    <p>это головокружительная чистота воздуха, великолепная зелень лугов, сверкающие белоснежные вершины
+                        гор и поразительного голубого цвета озера.
+                    </p>
+                    <div class="row">
+                        <div class="offset-sm-1 col-sm-2">
+                            <a href="#" class="arrow-left"></a>
+                        </div>
+                        <div class="col-sm-9">
+                            <a href="#" class="arrow-right"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-sm-2 col-sm-5">
+                    <form class="order-excursion" action="#">
+                        <h2>ЗАКАЗАТЬ ЭКСКУРСИЮ</h2>
+                        <input class="form-element" type="text" name="name" placeholder="Имя" maxlength="20">
+                        <input class="form-element" type="email" name="email" placeholder="E-mail"
+                               maxlength="30">
+                        <input class="form-element" type="tel" name="tel" placeholder="Телефон" maxlength="12">
+                        <textarea class="form-element" name="message" maxlength="500"
+                                  placeholder="Сообщение"></textarea>
+                        <input class="form-element" type="submit" value="ОТПРАВИТЬ">
+                    </form>
                 </div>
             </div>
         </div>
